@@ -1689,7 +1689,6 @@ class mainCog(commands.Cog):
 			return
 
 	################ 저장된 정보 초기화 ################
-	@commands.has_permissions(manage_messages=True)						      
 	@commands.command(name=command[7][0], aliases=command[7][1:])
 	async def initVal_(self, ctx):
 		global basicSetting
